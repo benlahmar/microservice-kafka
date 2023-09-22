@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class ListnerKafka {
 
 	@Autowired
-	KafkaTemplate<String, String> producer;
+	KafkaTemplate<String, String> producer; 
 	
     private static final Logger LOG = LoggerFactory.getLogger(ListnerKafka.class);
 
